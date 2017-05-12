@@ -1,4 +1,6 @@
-class Api::User < ApplicationRecord
+class User < ApplicationRecord
+  attr_reader :password
+
   validates :username, :password_digest, presence: true
   validates :password, length: { minimum: 6, allow_nil: true }
 
