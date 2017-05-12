@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
     "react-redux": "^5.0.4",
     "redux": "^3.6.0",
     "webpack": "^2.5.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
